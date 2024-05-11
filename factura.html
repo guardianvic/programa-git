@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Contable COUNTER</title>
+    <meta name="keywords" content="HTML,CSS,JavaScript">  
+    <link rel="stylesheet" type="text/css" href="libreria/bootstrap-5.0.2/css/bootstrap.css">
+    <link rel="stylesheet" href="text/JavaScript" href="libreria/bootstrap-5.0.2/js/bootstrap.js"> 
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="img/logo.jpg">
+  
+</head>
+<body>
+
+<div class="container-2">
+    <div class="header">
+        <h1>Factura</h1>
+        <p>Nombre de la Empresa</p>
+        <p>NIT: 123456789-0</p>
+        <p>Dirección: Dirección de la Empresa</p>
+        <p>Teléfono: 123-456-789</p>
+        <p>Actividad Económica: Actividad Económica</p>
+        <p>Número de Factura: 001</p>
+        <p>Fecha y Hora: 07 de Noviembre de 2023 - 14:30</p>
+    </div>
+
+    <div class="customer-details">
+        <h2>Detalles del Cliente:</h2>
+        <p>Cliente: Nombre del Cliente</p>
+        <p>Dirección del Cliente: Dirección del Cliente</p>
+        <p>Teléfono del Cliente: 987-654-321</p>
+    </div>
+
+    <table class="product-table">
+        <thead>
+            <tr>
+                <th>Descripción del Producto</th>
+                <th>Ref</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Producto 1</td>
+                <td>P001</td>
+                <td>2</td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>Producto 2</td>
+                <td>P002</td>
+                <td>3</td>
+                <td>$75.00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="total">
+        <p>Subtotal: $125.00</p>
+        <p>Subtotal + IVA (12%): $140.00</p>
+        <p>Retención en la Fuente: $5.00</p>
+        <h3>Total a Pagar: $135.00</h3>
+    </div>
+    
+    <div class="payment-method">
+        <h2>Método de Pago:</h2>
+        <p>Efectivo</p>
+        <p>Nequi</p>
+    </div>
+</div>
+<div>
+    <a href="ventas.html"><button class="btn-info btn-back">Regresar</button></a>    
+    <button class="btn-info btn-save">Guardar Factura</button>
+    <button class="btn-info btn-print">Imprimir Factura</button>
+    <button class="btn-info btn-cancel">Cancelar Factura</button>
+    <button class="btn-info btn-new">Generar Nueva Factura</button>
+  </div>
+</body>
+</html>

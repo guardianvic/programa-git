@@ -1,0 +1,104 @@
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Software Contable COUNTER</title>
+      <meta name="keywords" content="HTML,CSS,JavaScript">  
+      <link rel="stylesheet" type="text/css" href="libreria/bootstrap-5.0.2/css/bootstrap.css">
+      <link rel="stylesheet" href="text/JavaScript" href="libreria/bootstrap-5.0.2/js/bootstrap.js"> 
+      <link rel="stylesheet" href="/css/estilos.css">
+      <link rel="stylesheet" href="img/logo.jpg">
+     
+  </head>
+ 
+<body id="formulario-1">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <span class="navbar-text">MODULO DE TERCEROS</span>
+        </div>
+      </nav> 
+    <form >
+        <table>
+            <tr>
+                <th>Tipo de Documento</th>
+                <td><select id="tipoDocumento" name="tipoDocumento">
+                    <option value="nit">Nit</option>
+                    <option value="cedula">Cédula de Identidad</option>
+                    <option value="pasaporte">Pasaporte</option>
+                </select></td>
+                <th>Número de Documento</th>
+                <td><input type="text" id="numeroDocumento" name="numeroDocumento"></td>
+                <th>D-V</th>
+                <td><input type="text" id="digitoVerificacion" name="digitoVerificacion"></td>
+            </tr>
+            <tr>
+                <th>País</th>
+                <td><select type="text" id="pais" name="pais">
+                   <option value="COLOMBIA">Colombia</option>
+                   <option value="EE.UU">EE.UU</option>
+                   <option value="BRASIL">Brasil</option>
+                </td>
+                <th>Departamento</th>
+                <td><select type="text" id="departamento" name="departamento">
+                    <option value="TOLIMA">Tolima</option>
+                    <option value="CUNDINAMARCA">Cundinamarca</option>
+                    <option value="CAUCA">Cauca</option> 
+                </td>
+                <th>Ciudad</th>
+                <td><select type="text" id="ciudad" name="ciudad">
+                    <option value="IBAGUE">Ibague</option>
+                    <option value="BOGOTA">Bogota</option>
+                    <option value="POPAYAN">Popayan</option>
+                </td>
+            </tr>
+            <tr>
+                <th>Primer Nombre</th>
+                <td><input type="text" id="primerNombre" name="primerNombre"></td>
+                <th>Otro Nombre</th>
+                <td><input type="text" id="otroNombre" name="otroNombre"></td>
+            </tr>
+            <tr>
+                <th>Primer Apellido</th>
+                <td><input type="text" id="primerApellido" name="primerApellido"></td>
+                <th>Segundo Apellido</th>
+                <td><input type="text" id="segundoApellido" name="segundoApellido"></td>
+            </tr>
+            <tr>
+                <th>Razón Social o Comercial</th>
+                <td><input type="text" id="razonSocial" name="razonSocial"></td>
+            </tr>
+            <tr>
+                <th>Teléfono</th>
+                <td><input type="text" id="telefono" name="telefono"></td>
+                <th>Celular</th>
+                <td><input type="text" id="celular" name="celular"></td>
+            </tr>
+            <tr>
+                <th>Dirección</th>
+                <td><input type="text" id="direccion" name="direccion"></td>
+            </tr>
+            <tr>
+                <th>Correo Electrónico</th>
+                <td><input type="email" id="correoElectronico" name="correoElectronico"></td>
+            </tr>
+        </table>
+        <div style="text-align: center;">
+            <a href="busqueda-tercero.html"><button type="button"class="btn btn-info" >Guardar</button></a>            
+            <button type="button"class="btn btn-info">Editar</button>
+            <button type="button"class="btn btn-info">Eliminar</button>
+            <button type="submit"formaction="terceros.html" class="btn btn-info">Cancelar</button>
+        </div>
+    </form>
+    
+
+ 
+    <footer class="bg-light text bg-dark pt-4 pb-4">
+      <div class="container text-white text-center">
+        <address> COLOMBIA, Juan David Gutierrez y Victor Alfonso Rojas L</address>
+        <small>&copy; Derechos Reservados 2023</small>
+      </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Contable COUNTER</title>
+    <meta name="keywords" content="HTML,CSS,JavaScript">  
+    <link rel="stylesheet" type="text/css" href="libreria/bootstrap-5.0.2/css/bootstrap.css">
+    <link rel="stylesheet" href="text/JavaScript" href="libreria/bootstrap-5.0.2/js/bootstrap.js"> 
+    <link rel="stylesheet" href="css/ventas.css">
+    <link rel="stylesheet" href="img/logo.jpg">   
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <span class="navbar-text">Formulario de Venta</span>
+        </div>
+      </nav> 
+      <div id="formulario">
+        <h2>Formulario de Venta</h2>
+        <form action="procesar_venta.php" method="post">
+          <label for="id_factura">ID de Factura:</label>
+          <input type="text" id="id_factura" name="id_factura" required>
+    
+          <label for="nombre_cliente">Nombre del Cliente:</label>
+          <input type="text" id="nombre_cliente" name="nombre_cliente" required>
+    
+          <label for="cantidad_producto">Cantidad de Producto:</label>
+          <input type="number" id="cantidad_producto" name="cantidad_producto" required>
+    
+          <label for="precio_producto">Precio de Producto:</label>
+          <input type="number" id="precio_producto" name="precio_producto" required>
+    
+          <label for="total_venta">Total de Venta:</label>
+          <input type="text" id="total_venta" name="total_venta" readonly>
+    
+          <a href="factura.html"><button type="button" class="btn btn-info">Realizar Venta</button></a>          
+          <a href="ventas.html"><button type="button"class="btn btn-info">Regresar</button></a>
+         
+        </form>
+      </div>
+    
+    
+<footer class="bg-light text bg-dark pt-4 pb-4">
+    <div class="container text-white text-center">
+      <address> COLOMBIA, Juan David Gutierrez y Victor Alfonso Rojas L</address>
+      <small>&copy; Derechos Reservados 2023</small>
+    </div>
+  </footer>
+  
+</body>
+</html>
