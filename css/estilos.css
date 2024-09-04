@@ -1,5 +1,5 @@
 .fondo{
-   background-image: url(/img/logo.jpg);
+    background-image: url(/img/logo.jpg);
     height: auto;
     background-position: center;
     background-repeat: repeat;
@@ -21,16 +21,16 @@
 
 .fondo1{
     background-image: url(/img/logo.jpg);
-     height: auto;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     padding: 40px;
- }
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
 
- 
+
     
- 
+
    /* Estilos CSS para el formulario */
         body {
             font-family: Arial, sans-serif;
@@ -71,10 +71,10 @@
 
         #formulario-1{
             background-image: url(/img/logo.jpg);
-             height: auto;
+            height: auto;
         }
 
-      /* factura*/
+    /* factura*/
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -101,21 +101,21 @@
             padding: 10px;
             margin: 10px;
             
-          }
-          .btn-save, .btn-print, .btn-cancel, .btn-new, .btn-back {
+        }
+        .btn-save, .btn-print, .btn-cancel, .btn-new, .btn-back {
             float: right;
             padding: 10px; 
             float: right;
             margin-left: 10px;
 
-              /* busqueda*/    
-         }
-         input[type="text-1"] {
+            /* busqueda*/    
+        }
+        input[type="text-1"] {
             width: 180px; 
             padding: 05px;margin: auto; 
-          }
-         
-         
+        }
+        
+        
     /*formulario ventas*/
     .container-ventas{
 
@@ -126,13 +126,10 @@
         display: block;
         margin-bottom: 8px; 
     }
-       
+    
     input[type="text"],
     input[type="number"]
     select {
         width: 100%;
         padding: 3px;
     } 
-       
-    
-   
