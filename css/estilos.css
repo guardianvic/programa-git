@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .fondo{
     background-image: url(/img/logo.jpg);
     height: auto;
@@ -133,3 +134,140 @@
         width: 100%;
         padding: 3px;
     } 
+=======
+.fondo{
+    background-image: url(/img/logo.jpg);
+    height: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.container-fluid{
+    position: cover;
+    display: inline-block;
+}
+.text1{
+    position: absolute ;
+    top: 120px;
+    left: 10%;
+    font-size: 22px;
+    color: rgb(10, 10, 10);
+    padding: 40px;
+
+}
+
+.fondo1{
+    background-image: url(/img/logo.jpg);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+
+    
+
+   /* Estilos CSS para el formulario */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 3px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #formulario-1{
+            background-image: url(/img/logo.jpg);
+            height: auto;
+        }
+
+    /* factura*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container-2 {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .header, .customer-details, .product-table, .total, .payment-method {
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #101010;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        .btn-save, .btn-print, .btn-cancel, .btn-new, .btn-back {
+            float: right;
+            padding: 10px; 
+            float: right;
+            margin-left: 10px;
+
+            /* busqueda*/    
+        }
+        input[type="text-1"] {
+            width: 180px; 
+            padding: 05px;margin: auto; 
+        }
+        
+        
+    /*formulario ventas*/
+    .container-ventas{
+
+        background: center;
+        background-position: center;
+    }     
+    label{
+        display: block;
+        margin-bottom: 8px; 
+    }
+    
+    input[type="text"],
+    input[type="number"]
+    select {
+        width: 100%;
+        padding: 3px;
+    } 
+>>>>>>> 2f8649bd61a05b532c357794d17a6ffcfe0462f9

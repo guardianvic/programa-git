@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
      /* Estilos CSS para el modulo de terceros */
      body {
@@ -45,4 +46,53 @@
        background-size: cover;
        padding: 40px;
       
+=======
+
+     /* Estilos CSS para el modulo de terceros */
+     body {
+        margin: 0;
+        padding: 0;
+        background-image: url('/img/modulo-contable.jpg');
+        background-size: cover;
+        font-family: Arial, sans-serif;
+      }
+  
+      .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr  ;
+        height: 100vh; 
+      }
+  
+      .logo {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+        text-align: center;
+        padding: 120px;
+      }
+  
+      .boton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0); 
+      }
+       
+      @media screen and (max-width: 768px) {
+        .contenedor {
+          grid-template-columns: 1fr; 
+        }
+    }
+
+    /* terceros busqueda*/
+    .fondo2{
+      background-image: url(/img/logo.jpg);
+       height: auto;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       padding: 40px;
+      
+>>>>>>> 2f8649bd61a05b532c357794d17a6ffcfe0462f9
     }      

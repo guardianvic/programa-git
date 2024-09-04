@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body {
   margin: 0;
@@ -44,3 +45,51 @@ button:hover {
     width: 80%;
   }
 }
+=======
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('/img/modulo-contable.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  #login-form {
+    width: 80%;
+  }
+}
+>>>>>>> 2f8649bd61a05b532c357794d17a6ffcfe0462f9
